@@ -25,8 +25,7 @@ add_subdirectory(chainlist)
 ##add_compile_options("$<$<C_COMPILER_ID:MSVC>:/utf-8>")
 ##add_compile_options("$<$<CXX_COMPILER_ID:MSVC>:/utf-8>")
 #必须位于 add_executable（……） 之前
-#
-#
+
 #或者
 #
 #-D CMAKE_CXX_FLAGS="/utf-8"
